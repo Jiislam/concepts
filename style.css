@@ -82,14 +82,14 @@ color: white;
     margin-left: 80px;
 }
 .box{
-    height: 250px;
+    height: 300px;
     width: 250px;
      box-shadow: 5px 5px 15px ;
      background-color: rgba(35, 34, 34, 0.885);
      text-align: center;
      color: white;
      padding: 15px;
-     margin: 15px;
+    
 }
 .icon{
     width: 70px ;
@@ -97,14 +97,14 @@ color: white;
     text-align: center;
 }
 .box-button{
-    align-items: end;
     background-color: grey;
 }
 .product-description{
+    justify-content: center;
     padding: 10px;
     margin-top: 10px;
-    height: 250px;
-   align-items: center;
+    margin-bottom: 10px;
+    height: 100px;
 }
 .service-container{
     display: flex;
