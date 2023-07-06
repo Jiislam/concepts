@@ -5,3 +5,20 @@
     color: blue;
     cursor:grab;
 }
+.container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: ;
+}
+.box{
+    padding: 15px;
+background-color: red;
+width: 110px;
+border-radius: 5px;}
+.box2{
+    padding: 15px;
+background-color: green;}
+.box3 {
+    padding: 15px;
+background-color: blue;}
