@@ -84,7 +84,9 @@ color: white;
 .box{
     height: 300px;
     width: 250px;
-     box-shadow: 5px 5px 15px ;
+    border: 2px solid;
+    border-color: rgba(195, 0, 255, 0.205);
+     box-shadow: 15px 15px 15px ;
      background-color: rgba(35, 34, 34, 0.885);
      text-align: center;
      color: white;
@@ -110,4 +112,13 @@ color: white;
     display: flex;
    justify-content: space-around;
     
+}
+.about-container{
+    display: flex;
+justify-content:space-around;
+height: 100vh;
+align-items: center;
+background-image: url("images/background.png"),
+linear-gradient(45deg,rgb(8, 8, 8),rgb(65, 65, 65));
+color: white;
 }
